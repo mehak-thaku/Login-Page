@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Poppins;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://wallpapers.com/images/hd/natural-purple-aesthetic-lake-in-forest-at-night-ph4iy4gsdwkmulyj.jpg);
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    background-position: center;
+
+}
+
+.form-box {
+    height: 450px;
+    width: 350px;
+    text-align: center;
+    align-items: center;
+    /* background-color: aliceblue; */
+    border-radius: 20px;
+    margin: 30px auto 30px auto;
+    padding: 30px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+
+}
+
+.form-box h1 {
+    margin-top: 40px;
+    color: #19b328;
+    font-weight: bolder;
+
+}
+
+.underline {
+    height: 5px;
+    width: 35px;
+    background-color:  #19b328;
+    margin: 10px auto 50px auto;
+    margin-left: 160px;
+    border-radius: 2px;
+}
+
+
+
+.input-box {
+    background-color: rgb(221, 213, 221);
+    margin: 15px 0px;
+    border-radius: 10px;
+    display: flex;
+    transition: max-height 0.5s;
+    max-height: 65px;
+    overflow: hidden;
+}
+
+.input-box i {
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(22, 169, 54);
+}
+
+.input-box input {
+    width: 100vh;
+    height: 30px;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    padding: 10px 10px;
+    font-size: 13px;
+}
+
+form p {
+    text-align: left;
+    font-size: 16px;
+}
+
+form a {
+    text-decoration: none;
+    padding: 6px;
+    color:  #19b328;
+}
+
+form a:hover {
+    text-decoration: underline;
+}
+
+.btn1{
+    background-color: #19b328; 
+    
+}
+
+button {
+    margin: 30px;
+    height: 40px;
+    width: 112px;
+    border-radius: 19px;
+    font-size: 15px;
+    border: 0;
+    cursor: pointer;
+    transition: background 0.2s;
+
+}
+
+button:hover {
+    background-color:  #19b328;
+}
